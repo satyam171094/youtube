@@ -295,3 +295,42 @@ header{
         margin-top: 65px;
     }
 }
+
+@media screen and (max-width:540px){
+    .bar, .input, .mic, .video_add, .bell, .menu_img, .menu_sidebar {
+        display: none;
+    }
+    .search{
+        border-radius: 0;
+        background-color: white;
+        margin-left: 290px  ;
+    }
+    .search img{
+        color: black;
+    }
+    .menu_text {
+        overflow-x: scroll;
+    }
+    .navbar {
+        width: 100%;
+    }
+    .internal_flex{
+        width: 100%;
+    }
+    .intro_text{
+        margin-top: -99px;
+    }
+
+}
+
+
+@media screen and (max-width:414px){
+    .search{
+        margin-left: 200px;
+    }
+}
+@media screen and (max-width:375px){
+    .search{
+        margin-left: 175px;
+    }
+}
